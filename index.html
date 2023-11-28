@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Settings -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detona Ralph</title>
+    <link rel="shortcut icon" href="src/Assets/imgs/favicon.jpg" type="image/x-icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="src/Assets/style/reset.css" />
+    <link rel="stylesheet" href="src/Assets/style/global.css" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="menu">
+        <div class="menu-timer">
+            <h2 style="color:rgb(204, 110, 110)" class="menu-item">Time Left:</h2>
+            <h2 id="time-left" class="menu-item">0</h2>
+        </div>
+        <div class="menu-score">
+            <h2 style="color: rgb(204, 110, 110)" class="menu-item">Your Score:</h2>
+            <h2 id="score" class="menu-item">0</h2>
+        </div>
+     
+        <div class="menu-lives">
+            <img src="src/Assets/imgs/player.png" alt="live" height=" 60px">
+            <h3 class="menu-item">x3</h3>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="panel-row">
+            <div class="square enemy" id="1"></div>
+            <div class="square" id="2"></div>
+            <div class="square" id="3"></div>
+        </div>
+        <div class="panel-row">
+            <div class="square " id="4"></div>
+            <div class="square" id="5"></div>
+            <div class="square" id="6"></div>
+        </div>
+        <div class="panel-row">
+            <div class="square" id="7"></div>
+            <div class="square" id="8"></div>
+            <div class="square" id="9"></div>
+        </div>
+      </div>
+    </div>
+
+    <script defer src="src/scripts/main.js"></script>
+  </body>
+</html>
